@@ -1,1 +1,184 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="language">fr</string>
+	
+	<string name="appname">CounterWallet</string>
+	<string name="label_about">À propos</string>
+	
+	<string name="label_holdAssets">Balance Actif</string>
+	<string name="label_ownAssets">Actifs créés</string>
+	<string name="label_qrcode">Montrer le code QR</string>
+	<string name="label_histories">Historique de transaction</string>
+	<string name="label_createtoken">Créer un jeton</string>
+	<string name="label_tokenname">Choisir le nom du jeton</string>
+	<string name="label_numeric">Jeton gratuit</string>
+	<string name="label_description">Description</string>
+	<string name="label_quantity_issue">Quantité</string>
+	<string name="label_quantity_order">Montant à recevoir</string>
+	<string name="label_quantity_send">Montant à envoyer</string>
+	<string name="label_cancel">Annuler</string>
+	<string name="label_ok">OK</string>
+	<string name="label_hinttext_password">Mot de passe(au moins 6 lettres)</string>
+	<string name="label_password">mot de passe</string>
+	<string name="label_passphrase">phrase de chiffrement à 12 mots</string>
+	<string name="label_send">envoyer</string>
+	<string name="label_showinfo">info sur l'actif</string>
+	<string name="label_order">Ordre</string>
+	<string name="label_price">Prix</string>
+	<string name="label_buy">Acheter</string>
+	<string name="label_sell">Vendre</string>
+	<string name="label_noprice">Aucun Prix</string>
+	<string name="label_confirm">Confirmer</string>
+	<string name="label_close">Fermer</string>
+	<string name="label_login">Connexion</string>
+	<string name="label_bitcoinaddress">Mon adresse Bitcoin</string>
+	<string name="label_destination">Destinataire</string>
+	<string name="label_fee">Frais pour mineur</string>
+	<string name="label_create">Créer</string>
+	<string name="label_back">Revenir</string>
+	<string name="label_delete">Effacer</string>
+	<string name="text_reconfirm">Veuillez confirmer votre code d'accès</string>
+	<string name="label_done">Terminé</string>
+	<string name="label_search">Rechercher</string>
+	
+	<string name="text_createnewwallet">Créer un nouveau portefeuille</string>
+	<string name="text_createToken">Créer un jeton</string>
+	<string name="text_confirmIssuance">Émission de {quantity}unités de {token}</string>
+	
+	<string name="text_confirmorder"> Confirmez l'ordre</string>
+	<string name="text_confirmsend">Confirmez l'envoi</string>
+	
+	<string name="text_issuance_done">{asset} créé</string>
+	<string name="text_orderd">Ordre placée</string>
+	<string name="text_sent">Envoyé</string>
+	
+	<string name="text_doissuance">Émettre</string>
+	<string name="text_dosend">Envoyer</string>
+	
+	<string name="text_makedivisible">Rendre Divisible</string>
+	<string name="text_hold">Vous possédez {balance}Unités de {asset}</string>
+	<string name="text_totalcost">{asset}total {amount}</string>
+	<string name="text_comfirmorder">Placer un ordre de {type} pour {quantity}{main_asset} avec {price}{price_asset}</string>
+	<string name="text_necessarycost">Requiert {total} {price_asset}</string>
+	<string name="text_canget"> Avec ordre apparié, vous avez {total}{price_asset}</string>
+	<string name="text_createnewwallet">Créer un nouveau portefeuille</string>
+	<string name="text_loginasuser">Vous avez déjà un compte?</string>
+	<string name="text_descript_password">NE PAS oublier votre mot de passe</string>
+	<string name="text_newcommer">Première utilisation</string>
+	<string name="text_copied">Copié</string>
+	<string name="text_copied_message">Addresse copiée dans le presse-papier</string>
+	<string name="text_use_line">Envoyer par ligne téléphonique</string>
+	<string name="text_use_mail">Envoyer votre adresse Bitcoin par courriel</string>
+	
+	<string name="label_issueadditional">Émettre extra</string>
+	<string name="label_transferownership">Transférer la propriété</string>
+	<string name="label_locktoken">Vérouiller</string>
+	<string name="label_changedescription">Modifier la description</string>
+	<string name="label_noorders">Pas de commande</string>
+	<string name="text_holdcount">{count}personnes possède cet actif</string>
+	<string name="label_holders">Détenteurs d'actifs</string>
+	
+	<string name="text_history_order">Vendu {give_quantity} {give_asset} pour {get_quantity} {get_asset}</string>
+	<string name="text_history_send">Envoyé {quantity}{asset} à {target}</string>
+	<string name="text_history_receive">Reçu {quantity}{asset} de {target}</string>
+	<string name="text_history_issuance">Émis {quantity} {asset}</string>
+	<string name="text_history_dividend">Émis {quantity_per_unit}% {dividend_asset} dividendes aux détenteurs de {asset}</string>
+	<string name="text_history_get_dividend">Reçu {quantity_per_unit}% {dividend_asset} dividendes pour les détenteurs de {asset}</string>
+	
+	<string name="label_easypass">Code d'accès rapide</string>
+	<string name="text_easypass">Voudriez-vous définir un code d'accès à 4 chiffres pour faciliter l'accès?</string>
+	<string name="label_fingerprint">Touch ID</string>
+	<string name="text_fingerprint">Voudriez-vous définir Touch ID pour faciliter l'accès?</string>
+	<string name="label_adminerror">Erreur d'authentification</string>
+	<string name="text_adminerror">Authentification non-acceptée</string>
+	<string name="label_privecypolicy">Politique de confidentialité et Conditions d'utilisation</string>
+	<string name="label_privecypolicy2">En appuyant sur "Créer" J'accepte les termes ci-dessus</string>
+	<string name="text_withmessage">Message joint</string>
+	<string name="text_unreadable">N'est pas parveny à indentifier une adresse valide</string>
+	<string name="text_noregisted"> non-enregistré</string>
+	<string name="label_rename">Modifier nom</string>
+	<string name="text_rename">Vous pouvez modifier le nom de votre compte</string>
+	<string name="text_desc_fingerprint">Vous allez ête en mesure d'envoyer des jetons et plus avec votre empreinte</string>
+	<string name="text_desc_easypass">Vous allez ête en mesure d'envoyer des jetons et plus avec votre PIN à 4 chiffres</string>
+	<string name="text_identifier">ID qui identifie votre portefeuille</string>
+	<string name="label_copy">Copier</string>
+	<string name="label_copied">Copié</string>
+	<string name="text_copied">Coller partout ou vous voulez!</string>
+	<string name="text_inputverify_number">Saisir {name}avec des nombres</string>
+	<string name="text_inputverify_equal">{name} ne concorde pas</string>
+	<string name="text_inputverify_empty">Entrer {name}</string>
+	<string name="text_inputverify_more">{name} requiert plus que {over} lettres</string>
+	<string name="text_inputverify_shouldvalue">{name} invalide</string>
+	<string name="text_inputpass">Entrer votre mot de passe</string>
+	<string name="text_wrongpass">Mot de passe Incorrect</string>
+	<string name="text_pleasefingerprint"> Requiert Touch ID pour continuer</string>
+	<string name="text_initialize">Initialisation...</string>
+	
+	<string name="label_reload">Rechargement</string>
+	
+	<string name="label_passphrase">Phrase de chiffrement</string>
+	<string name="label_passphrase_title">Veuillez noter cette phrase de chiffrement</string>
+	<string name="text_passphrase">"{passphrase}"</string>
+	
+	<string name="label_passphrase_ok">J'ai l'ai écris pour m'en souvenir</string>
+	
+	<string name="label_historytype_send">Envoyer</string>
+	<string name="label_historytype_receive">Recevoir</string>
+	<string name="label_historytype_order">Commander</string>
+	<string name="label_historytype_issuance">Émettre</string>
+	<string name="label_historytype_dividend">Dividende émise</string>
+	<string name="label_historytype_get_dividend">Dividende reçue</string>
+	<string name="label_historytype_"></string>
+	
+	<string name="lebal_orderhistory">Historique de commande</string>
+	<string name="label_order_price">Prix</string>
+	<string name="label_order_num">Quantité</string>
+	<string name="label_order_status">Statut</string>
+	<string name="label_order_status_open"> En attente</string>
+	<string name="label_order_status_filled">Completé</string>
+	<string name="label_order_status_expired">Incomplèt</string>
+	<string name="label_order_status_canceled">Annuler</string>
+	<string name="label_hinttext_password_confirm"> Confirmer le mot de passe</string>
+	<string name="text_nohistory"> Pas d'historique</string>
+	<string name="text_history_error">Impossible de récupérer l'historique</string>
+	
+	<string name="warning_insufficientfunds">Êtes-vous certain d'avoir les fonds suffisant?</string>
+	<string name="text_assetinfo_error"> Cet actif ne semble pas existant ou n'est pas encore confirmé</string>
+	<string name="text_sendconfirmation">Envoyer \n {amount} à {address}</string>
+	<string name="label_issue_supply">Quantité totale {supply}</string>
+	<string name="label_issue_balance">Balance {balance}</string>
+	
+	<string name="label_exchange">Échange</string>
+	<string name="label_dividend">Dividende</string>
+	
+	<string name="label_dividend_token">Nom du jeton</string>
+	<string name="text_dividend_description">Payer une distribution aux détenteurs de {asset}</string>
+	<string name="label_dodividend">Payer distribution</string>
+	
+	<string name="text_dividendconfirmation">Payer｛perunit｝% en dividendes de {token} aux détenteurs d'actifs.</string>
+	<string name="text_dividend">Terminé.</string>
+	
+	<string name="text_imageupload">Image de l'actif</string>
+	<string name="label_website">Site web</string>
+	<string name="label_pgpsig">Signature pgp</string>
+	
+	<string name="text_passphrase_q">Montrer la phrase de chiffrement?</string>
+	<string name="label_show">Montrer!</string>
+	<string name="label_reissue">Émettre plus d'unités</string>
+	<string name="text_reissue">Combien d'unités à émettre?</string>
+	<string name="text_reissued">Émis</string>
+	<string name="label_lock">Vérouiller</string>
+	<string name="text_lock">Êtes-vous certain de vouloir vérouiller l'approvisionnement de cet actif? Requiert 0.0001BTC Pour le vérouiller.</string>
+	<string name="text_locked">Verrouillé</string>
+	<string name="label_edit">Éditer</string> 
+	<string name="text_doedit">Terminé</string>
+	
+	
+	
+	
+	<string name="text_webfailed">Lecture impossible...</string>
+	<string name="label_signout">Déconnexion</string>
+	<string name="text_signout">Êtes-vour certain de vouloir vous déconnecter?</string> 
+	<string name="label_reorganisation">Excuses</string>
+	<string name="text_reorganisation">Veuillez attendre pendant la resynchronisation de la blockchain...</string>
+</resources>
